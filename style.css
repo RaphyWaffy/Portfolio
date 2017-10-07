@@ -121,7 +121,12 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  textarea {
+    width: 30em;
+  }
 
+}
 #inputmsg {
   width: 300px;
   height: 300px;
