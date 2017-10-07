@@ -1,0 +1,134 @@
+* {
+  font-family: 'Arvo', serif;
+}
+
+body {
+  background-color: #eff1f4;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #66625a
+}
+
+h2, h4 {
+  color: #66625a
+}
+
+h4 {
+  text-align: center;
+}
+
+
+
+.skilliamages {
+  width: 50px;
+  margin: 30px;
+  margin-top: 5px;
+}
+
+.projectimages {
+  width: 250px;
+  margin: 5px;
+}
+
+.skilldiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #d8d9db;
+}
+
+.skilldiv div {
+  text-align: center;
+}
+
+.description {}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-bottom: 50px;
+}
+
+.project-links>div {
+  margin: 5px;
+}
+
+.navbar {
+  background-color: #2e2b29;
+}
+
+.navbar-brand {
+  color: #c9cecb;
+}
+
+.nav.navbar-nav li a {
+  color: #c9cecb;
+}
+
+.project0, .project1, .project2, .project3, .project4, .project5, .project6 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: inherit;
+  height: 150px;
+  width: 250px;
+}
+
+.project0 {
+  background-image: url("images/hpt_screenshot.png");
+}
+
+.project1 {
+  background-image: url("images/guanyu-tributepage-screenshot.png");
+}
+
+.project2 {
+  background-image: url("images/Random_QM.png");
+}
+
+.project3 {
+  background-image: url("images/wiki_viewer_screenshot.png");
+}
+
+.project4 {
+  background-image: url("images/Twitch_API_screenshot.png");
+}
+
+.project5 {
+  background-image: url("images/Local weather app.png");
+}
+
+.project6 {
+  background-image: url("images/calculator_screenshot.png");
+}
+
+.project-text {
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+  background-color: #eff1f4;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputmsg {
+  width: 300px;
+  height: 300px;
+}
+
+#submitbtn {
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+}

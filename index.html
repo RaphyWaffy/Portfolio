@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">About</a></li>
+          <li class="dropdown">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="text-center">
+    <h1>Raphael Reuben</h1>
+    <p>Motivated self taught Front end Developer building on exerience trying to move up to a professioinal level.
+      <br> Plese take a look at the projects I have created below.</p>
+    <a href="https://github.com/RaphyWaffy"><img class="skilliamages" src="images\Git_icon.svg" alt=""></a>
+
+  </div>
+  <h1 id="skills"class="text-center">Skills</h1>
+  <div class="skilldiv">
+    <div class="">
+      <h4>HTML</h4>
+      <img class="skilliamages" src="images\1000px-HTML5_logo_and_wordmark.svg.png" alt="">
+    </div>
+    <div class="">
+      <h4>CSS3</h4>
+      <img class="skilliamages" src="images\CSS3_logo_and_wordmark.svg (1).png" alt="">
+    </div>
+    <div class="">
+      <h4>Javascript</h4>
+      <img class="skilliamages" src="images\javascript-736400_960_720.png" alt="">
+    </div>
+  </div>
+  <div class="skilldiv">
+    <div class="">
+      <h4>Git</h4>
+      <img class="skilliamages" src="images\1024px-Git-logo.svg.png" alt="">
+    </div>
+    <div class="">
+      <h4>Jquery</h4>
+      <img class="skilliamages" src="images\Logo_jQuery.svg.png" alt="">
+    </div>
+  </div>
+  <div class="skilldiv">
+    <div class="">
+      <h4>Bootstrap</h4>
+      <img class="skilliamages" src="images\bootstrap-logo (2).png" alt="">
+    </div>
+  </div>
+  </div>
+
+
+  <h1 id="projects" class="text-center">Projects</h1>
+
+  <div id="pjl" class="project-links">
+    <div class="">
+        <h4>Hurculean PT</h4>
+        <a href="http://herculeanpt.co.uk/">
+        <div class="project0"></div>
+      </a>
+    </div>
+    <div class="">
+      <h4>Tribute Page</h4>
+      <a href="https://raphywaffy.github.io/Guan-Yu/">
+        <div class="project1"></div>
+      </a>
+    </div>
+    <div class="">
+      <h4>Random Quote Machine</h4>
+      <a href="https://raphywaffy.github.io/Random-Quote-Machine/">
+        <div class="project2"></div>
+      </a>
+    </div>
+    <div class="">
+      <h4>Wikipedia Viewer</h4>
+      <a href="https://raphywaffy.github.io/Wiiki-Viewer/">
+        <div class="project3"></div>
+      </a>
+    </div>
+    <div class="">
+    <h4>Twitch API</h4>
+    <a href="https://raphywaffy.github.io/Twitch-API/">
+      <div class="project4"></div>
+    </a>
+  </div>
+    <div class="">
+      <h4>Local Weather App</h4>
+      <a href="https://raphywaffy.github.io/Local-Weather-App/">
+        <div class="project5"></div>
+      </a>
+    </div>
+    <div class="">
+      <h4>Calculator</h4>
+      <a href="https://raphywaffy.github.io/Calculator/">
+        <div class="project6"></div>
+      </a>
+    </div>
+  </div>
+<h2 id="contact" class="text-center">Contact</h2>
+  <div class="contactform">
+    <form class="" action="https://www.enformed.io/YOUR_TOKEN" method="post">
+      First Name:<br>
+      <input type="text" name="firstname" value=""><br>
+      Last Name:<br>
+      <input type="text" name="lastname" value=""><input id="submitbtn"type="submit" name="submit" value="Send"><br>
+      Message:<br>
+      <textarea name="message" rows="8" cols="80"></textarea>
+    </form>
+  </div>
+</body>
+
+</html>
